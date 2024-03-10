@@ -2,32 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .main-layout {
+    @apply w-full md:w-[768px] lg:w-[1440px] mx-auto;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  .content-box {
+    @apply w-full mx-8 md:w-[704px] lg:w-[1140px] md:mx-auto;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .btn-primary {
+    @apply py-3 px-6 text-xs font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
+  }
+  .btn-secondary {
+    @apply py-3 px-6 border border-[#5F90F0] text-xs font-medium leading-5 rounded-full text-[#5F90F0];
   }
 }

@@ -1,5 +1,5 @@
 const ClientReviews = () => {
-  return <section>Client Reviews</section>;
+  return <section className="content-box">Client Reviews</section>;
 };
 
 export default ClientReviews;

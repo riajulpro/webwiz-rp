@@ -1,5 +1,5 @@
 const Services = () => {
-  return <section>Services</section>;
+  return <section className="content-box">Services</section>;
 };
 
 export default Services;

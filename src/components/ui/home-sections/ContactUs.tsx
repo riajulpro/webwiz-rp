@@ -1,5 +1,5 @@
 const ContactUs = () => {
-  return <section>Contact Us</section>;
+  return <section className="content-box">Contact Us</section>;
 };
 
 export default ContactUs;

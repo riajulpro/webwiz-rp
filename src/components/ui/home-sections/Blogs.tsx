@@ -1,5 +1,5 @@
 const Blogs = () => {
-  return <section></section>;
+  return <section className="content-box">Blogs</section>;
 };
 
 export default Blogs;
