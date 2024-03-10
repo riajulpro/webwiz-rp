@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        tablet: "768px",
+        desktop: "1440px",
+      },
       colors: {
         "primary-color": "#5F90F0",
         "second-primary-color": "#185AD9",
         "accent-color": "#FBA017",
+        "card-left-icon": "rgba(24, 90, 217, 0.10)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

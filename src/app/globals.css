@@ -1,20 +1,86 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+
+.title-bg {
+  position: relative;
+  z-index: 2;
+}
+
+.title-bg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 23%;
+  width: 100%;
+  height: 18px;
+  background-color: #d1def7;
+  z-index: -1;
+}
+
+.ver-line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.ver-line::before {
+  content: "";
+  border-radius: 99px;
+  height: 80%;
+  width: 12px;
+  background: linear-gradient(99deg, #5f90f0 5.67%, #185ad9 98.08%);
+}
+
+.linear-gradient {
+  background: linear-gradient(99deg, #5f90f0 5.67%, #185ad9 98.08%);
+}
+
+.service-card-shadow {
+  box-shadow: -12px 24px 56px 0px rgba(4, 45, 21, 0.08);
+}
+
+.contact-overlay-shadow {
+  box-shadow: -30px 30px 80px 0px rgba(19, 55, 124, 0.04);
+}
+
+@layer utilities {
+  .lg-max-width {
+    max-width: 1440px;
+  }
+  .md-max-width {
+    max-width: 768px;
+  }
+}
 
 @layer components {
-  .main-layout {
-    @apply w-full md:w-[768px] lg:w-[1440px] mx-auto;
+  .main-container {
+    @apply w-full tablet:md-max-width desktop:lg-max-width mx-auto;
   }
 
-  .content-box {
-    @apply w-full mx-8 md:w-[704px] lg:w-[1140px] md:mx-auto;
+  .section-container,
+  .nav-container {
+    @apply mx-24 tablet:mx-[50px] desktop:mx-[150px];
+  }
+
+  .contact-us-container {
+    @apply ml-24 tablet:ml-[50px] desktop:ml-[150px] mr-0;
+  }
+
+  .section-container {
+    @apply desktop:py-[80px];
   }
 
   .btn-primary {
     @apply py-3 px-6 text-xs font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
   }
   .btn-secondary {
-    @apply py-3 px-6 border border-[#5F90F0] text-xs font-medium leading-5 rounded-full text-[#5F90F0];
+    @apply py-[12px] px-[24px] border border-[#5F90F0] text-[14px] font-medium leading-[22.4px] rounded-full text-[#5F90F0];
+  }
+  .section-bg {
+    @apply bg-gradient-to-r from-[#5f90f00a] via-[#185ad90a] to-[#185ad90a];
   }
 }
+
+@tailwind utilities;

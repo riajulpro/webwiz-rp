@@ -4,20 +4,18 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="mt-8 content-box">
+    <nav className="mt-[32px] nav-container">
       <div className="flex justify-between items-center">
         <div>
           <LogoIcon />
         </div>
-        <div className="flex gap-14 items-center">
-          <div className="flex gap-8 items-center">
-            {navLinks.map((link) => (
-              <Link className="text-xs" key={link.route} href={link.pathName}>
-                {link.route}
-              </Link>
-            ))}
-          </div>
-          <button className="btn-primary">Contact</button>
+        <div className="flex gap-[32px] items-center">
+          {navLinks.map((link) => (
+            <Link className="text-[14px]" key={link.route} href={link.pathName}>
+              {link.route}
+            </Link>
+          ))}
+          <button className="btn-primary w-[104px]">Contact</button>
         </div>
       </div>
     </nav>

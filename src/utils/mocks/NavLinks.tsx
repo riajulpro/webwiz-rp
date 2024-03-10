@@ -9,7 +9,7 @@ export const navLinks: { pathName: string; route: string }[] = [
   },
   {
     pathName: "/about-us",
-    route: "About Us",
+    route: "About us",
   },
   {
     pathName: "/services",

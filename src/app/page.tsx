@@ -8,7 +8,7 @@ import Services from "@/components/ui/home-sections/Services";
 
 const HomePage = () => {
   return (
-    <main className="main-layout">
+    <main className="main-container">
       <Banner />
       <Portfolio />
       <AboutUs />
