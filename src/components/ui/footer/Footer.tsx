@@ -1,3 +1,9 @@
+import {
+  LocationIcon,
+  MailIcon,
+  PhoneIcon,
+  WebIcon,
+} from "@/utils/icons/FooterIcons";
 import { LogoIcon } from "@/utils/icons/Icons";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,55 +39,57 @@ const Footer = () => {
               Customer Feedback Analytic like it was Supposed to be!
             </p>
           </div>
-          <div>
-            <h4 className="footer-title mb-[16px]">Company</h4>
-            <div className="flex flex-col gap-[12px]">
-              <Link href="/" className="footer-link">
-                Home
-              </Link>
-              <Link href="/" className="footer-link">
-                About Us
-              </Link>
-              <Link href="/" className="footer-link">
-                Careers
-              </Link>
-              <Link href="/" className="footer-link">
-                Press
-              </Link>
+          <div className="desktop:w-[668px] flex items-start gap-[133px]">
+            <div>
+              <h4 className="footer-title mb-[16px]">Company</h4>
+              <div className="flex flex-col gap-[12px]">
+                <Link href="/" className="footer-link">
+                  Home
+                </Link>
+                <Link href="/" className="footer-link">
+                  About Us
+                </Link>
+                <Link href="/" className="footer-link">
+                  Careers
+                </Link>
+                <Link href="/" className="footer-link">
+                  Press
+                </Link>
+              </div>
             </div>
-          </div>
-          <div>
-            <h4 className="footer-title mb-[16px]">Our Services</h4>
-            <div className="flex flex-col gap-[12px]">
-              <Link href="/" className="footer-link">
-                Home
-              </Link>
-              <Link href="/" className="footer-link">
-                About Us
-              </Link>
-              <Link href="/" className="footer-link">
-                Careers
-              </Link>
-              <Link href="/" className="footer-link">
-                Press
-              </Link>
+            <div>
+              <h4 className="footer-title mb-[16px]">Our services</h4>
+              <div className="flex flex-col gap-[12px]">
+                <Link href="/" className="footer-link">
+                  UI/UX Design
+                </Link>
+                <Link href="/" className="footer-link">
+                  E-comers
+                </Link>
+                <Link href="/" className="footer-link">
+                  Marketing
+                </Link>
+                <Link href="/" className="footer-link">
+                  Free Delivery
+                </Link>
+              </div>
             </div>
-          </div>
-          <div>
-            <h4 className="footer-title mb-[16px]">Contact</h4>
-            <div className="flex flex-col gap-[12px]">
-              <Link href="/" className="footer-link">
-                Home
-              </Link>
-              <Link href="/" className="footer-link">
-                About Us
-              </Link>
-              <Link href="/" className="footer-link">
-                Careers
-              </Link>
-              <Link href="/" className="footer-link">
-                Press
-              </Link>
+            <div>
+              <h4 className="footer-title mb-[16px]">Contact</h4>
+              <div className="flex flex-col gap-[12px]">
+                <Link href="/" className="footer-link flex gap-[8px]">
+                  <MailIcon /> alexgoat@gmai.com
+                </Link>
+                <Link href="/" className="footer-link flex gap-[8px]">
+                  <PhoneIcon /> +880 16096-55707
+                </Link>
+                <Link href="/" className="footer-link flex gap-[8px]">
+                  <LocationIcon /> 221b Baker St London
+                </Link>
+                <Link href="/" className="footer-link flex gap-[8px]">
+                  <WebIcon /> WebWhiz.com
+                </Link>
+              </div>
             </div>
           </div>
         </div>

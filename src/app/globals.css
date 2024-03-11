@@ -69,7 +69,20 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 30px */
+  line-height: 150%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px; /* 30px */
+}
+
+.footer-title::after {
+  content: "";
+  height: 2px;
+  width: 37px;
+  background: #185ad9;
 }
 
 @layer utilities {
