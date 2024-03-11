@@ -15,6 +15,7 @@ const config: Config = {
       colors: {
         "primary-color": "#5F90F0",
         "second-primary-color": "#185AD9",
+        "footer-color": "#0E1025",
         "accent-color": "#FBA017",
         "card-left-icon": "rgba(24, 90, 217, 0.10)",
         "banner-bg": "rgba(255, 140, 56, 0.10)",
