@@ -208,13 +208,19 @@ export const Development = () => {
   );
 };
 
-export const UpRightArrow = () => {
+export const UpRightArrow = ({
+  color,
+  size,
+}: {
+  color?: string;
+  size?: string;
+}) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={size || "24"}
+      height={size || "24"}
       viewBox="0 0 24 24"
-      fill="none"
+      fill={"none"}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g id="vuesax/linear/send 180">
@@ -224,7 +230,7 @@ export const UpRightArrow = () => {
               <path
                 id="Vector"
                 d="M19 5L5 19"
-                stroke="white"
+                stroke={color || "white"}
                 stroke-width="1.5"
                 stroke-miterlimit="10"
                 stroke-linecap="round"
@@ -233,7 +239,7 @@ export const UpRightArrow = () => {
               <path
                 id="Vector_2"
                 d="M19 15.27V5H8.73"
-                stroke="white"
+                stroke={color || "white"}
                 stroke-width="1.5"
                 stroke-miterlimit="10"
                 stroke-linecap="round"

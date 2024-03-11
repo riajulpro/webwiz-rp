@@ -17,6 +17,8 @@ const config: Config = {
         "second-primary-color": "#185AD9",
         "accent-color": "#FBA017",
         "card-left-icon": "rgba(24, 90, 217, 0.10)",
+        "banner-bg": "rgba(255, 140, 56, 0.10)",
+        "banner-bg-circle": "rgba(153, 101, 207, 0.10)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
