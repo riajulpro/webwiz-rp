@@ -85,6 +85,32 @@
   background: #185ad9;
 }
 
+.tab {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px; /* 30px */
+}
+
+.active-tab {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px; /* 30px */
+  color: #5f90f0;
+}
+
+.active-tab::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #5f90f0;
+}
+
 @layer utilities {
   .lg-max-width {
     max-width: 1440px;
