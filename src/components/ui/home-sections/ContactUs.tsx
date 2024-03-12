@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ContactUs = () => {
   return (
-    <section className="contact-us-container">
+    <section className="contact-us-container tablet:mt-[42px]">
       <div className="flex justify-between items-center w-full">
         <div className="flex-1">
           <TitleWithDescription

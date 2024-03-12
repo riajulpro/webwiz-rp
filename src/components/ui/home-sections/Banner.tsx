@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section className="desktop:mt-[22px] section-container">
+    <section className="tablet:mt-[32px] desktop:mt-[22px] section-container">
       <div className="flex justify-between items-center gap-[20px]">
         <div className="flex-1">
           <TitleWithDescription
@@ -20,7 +20,15 @@ const Banner = () => {
             <button className="btn-secondary">View Portfolio</button>
           </div>
         </div>
-        <div className="relative flex-1 flex justify-center items-center">
+        <div className="tablet:block desktop:hidden flex-1 flex items-center justify-center">
+          <Image
+            src={"/images/tablet-banner.png"}
+            alt="Banner"
+            width={327}
+            height={286}
+          />
+        </div>
+        <div className="hidden relative flex-1 desktop:flex justify-center items-center">
           <Image
             src={"/images/banner-photo.png"}
             alt="Banner"
@@ -60,7 +68,7 @@ const Banner = () => {
               <UpRightArrow size="12px" color="#5F90F0" /> 25%
             </div>
           </div>
-          <div className="absolute right-[22px] -bottom-[50px] overlay-bg right-shadow">
+          <div className="absolute right-[14px] -bottom-[54px] overlay-bg right-shadow">
             <div className="bg-card-left-icon p-[8px] rounded-full">
               <Image
                 src={"/images/premium-icon.png"}

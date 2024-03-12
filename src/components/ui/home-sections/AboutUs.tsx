@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section className="section-container">
+    <section className="section-container tablet:mt-[42px]">
       <TitleWithDescription
         sectionName="About Us"
         title="We are turning products into Timeless elegance"

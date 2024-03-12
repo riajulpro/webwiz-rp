@@ -2,7 +2,7 @@ import TitleWithDescription from "@/components/shared/TitleWithDescription";
 
 const Portfolio = () => {
   return (
-    <section className="section-bg">
+    <section className="section-bg tablet:mt-[42px]">
       <div className="section-container">
         <TitleWithDescription
           sectionName="Portfolio"

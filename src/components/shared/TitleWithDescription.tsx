@@ -28,13 +28,17 @@ const TitleWithDescription = ({
       </h6>
       <div
         className={`flex justify-between
-        ${isVertical ? "flex-col gap-[16px]" : "flex-row items-start"}`}
+        ${
+          isVertical
+            ? "flex-col gap-[16px]"
+            : "desktop:flex-row desktop:items-start flex-col"
+        }`}
       >
         <div>
           <h1
             className={`desktop:w-[554px] ${
               isMain
-                ? "text-[64px] leading-[84px]"
+                ? "tablet:text-[40px] desktop:text-[64px] tablet:leading-[56px] desktop:leading-[84px]"
                 : "text-[40px] leading-[56px]"
             } font-bold`}
           >
@@ -53,7 +57,7 @@ const TitleWithDescription = ({
         <div>
           <p
             className={`${isVertical ? "" : "mt-[4px]"}
-            border-l-[4px] border-primary-color leading-[25.6px] pl-[12px] font-normal 
+            border-l-[4px] border-primary-color leading-[25.6px] pl-[12px] font-normal tablet:line-clamp-2 
             ${isMain ? "text-[16px] desktop:w-[572px]" : ""}
             ${textSize ? textSize : "text-[14px]"}
             ${desWidth}`}

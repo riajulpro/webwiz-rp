@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full flex items-start gap-[133px]">
+        <div className="w-full flex-col desktop:flex-row flex items-start gap-[133px]">
           <div className="desktop:w-[339px]">
             <Image
               src="/images/footer-logo.png"

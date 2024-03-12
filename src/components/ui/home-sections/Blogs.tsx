@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Blogs = () => {
   return (
-    <section className="section-container mt-[86px]">
+    <section className="section-container tablet:mt-[200px] desktop:mt-[86px]">
       <div className="flex items-center justify-between gap-[70px] mt-[64px]">
         <div className="flex-1 relative flex justify-center items-center">
           <Image
@@ -11,7 +11,7 @@ const Blogs = () => {
             alt="Blog Photo"
             width={369}
             height={510}
-            className="absolute bottom-[74px]"
+            className="absolute desktop:bottom-[74px]"
           />
           <div className="bg-[#EDEEFB] desktop:w-[554px] desktop:h-[450px] rounded-[16px]"></div>
         </div>
