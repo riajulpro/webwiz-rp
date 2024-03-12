@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <section className="tablet:mt-[32px] desktop:mt-[22px] section-container">
       <div className="flex justify-between items-center gap-[20px]">
-        <div className="flex-1">
+        <article className="flex-1">
           <TitleWithDescription
             isMain={true}
             isVertical={true}
@@ -19,15 +19,15 @@ const Banner = () => {
             <button className="btn-primary w-[160px] mr-3">Hire Me</button>
             <button className="btn-secondary">View Portfolio</button>
           </div>
-        </div>
-        <div className="tablet:block desktop:hidden flex-1 flex items-center justify-center">
+        </article>
+        <article className="tablet:block desktop:hidden flex-1 flex items-center justify-center">
           <Image
             src={"/images/tablet-banner.png"}
             alt="Banner"
             width={327}
             height={286}
           />
-        </div>
+        </article>
         <div className="hidden relative flex-1 desktop:flex justify-center items-center">
           <Image
             src={"/images/banner-photo.png"}
@@ -36,7 +36,7 @@ const Banner = () => {
             height={433}
           />
           <div className="absolute -z-10 h-[481px] w-[308px] bg-banner-bg rounded-[12px]"></div>
-          <div className="absolute -z-20 h-[64px] w-[64px] bg-banner-bg-circle rounded-full -top-12 right-20"></div>
+          <div className="absolute -z-20 h-[64px] w-[64px] bg-banner-bg-circle rounded-full -top-12 right-20" />
           <div className="absolute -bottom-[34px] left-[116px]">
             <BannerCircleIcon />
           </div>
