@@ -24,7 +24,16 @@ const Footer = () => {
               </span>
             </h3>
           </div>
-          <div>top right</div>
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              className="bg-transparent border border-footer-border text-[16px] rounded-full py-[8px] px-[16px] desktop:w-[370px]"
+            />
+            <button className="absolute right-0 linear-gradient text-white text-[14px] py-[10px] px-[16px] rounded-full">
+              Subscribe
+            </button>
+          </div>
         </div>
 
         <div className="w-full flex items-start gap-[133px]">
@@ -38,6 +47,49 @@ const Footer = () => {
             <p className="footer-link desktop:w-[339px] mt-[10px]">
               Customer Feedback Analytic like it was Supposed to be!
             </p>
+            <p className="mt-[16px]">Social Links</p>
+            <div className="flex items-center gap-[8px] mt-[16px]">
+              <Link href={"/"}>
+                <Image
+                  src={"/images/Twitter.png"}
+                  alt="Twitter"
+                  height={24}
+                  width={24}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Image
+                  src={"/images/Linkedin.png"}
+                  alt="Linkedin"
+                  height={24}
+                  width={24}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Image
+                  src={"/images/Telegram.png"}
+                  alt="Telegram"
+                  height={24}
+                  width={24}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Image
+                  src={"/images/Behance.png"}
+                  alt="Behance"
+                  height={24}
+                  width={24}
+                />
+              </Link>
+              <Link href={"/"}>
+                <Image
+                  src={"/images/Dribbble.png"}
+                  alt="Dribbble"
+                  height={24}
+                  width={24}
+                />
+              </Link>
+            </div>
           </div>
           <div className="desktop:w-[668px] flex items-start gap-[133px]">
             <div>

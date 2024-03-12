@@ -40,12 +40,12 @@ const AboutUs = () => {
                 <p className="about-statics-title">Project Delivery</p>
               </div>
               <div className="about-statics-frame">
-                <h4 className="about-statics-number">58+</h4>
-                <p className="about-statics-title">Project Delivery</p>
+                <h4 className="about-statics-number">120+</h4>
+                <p className="about-statics-title">Happy Clients</p>
               </div>
               <div className="about-statics-frame">
-                <h4 className="about-statics-number">58+</h4>
-                <p className="about-statics-title">Project Delivery</p>
+                <h4 className="about-statics-number">32+</h4>
+                <p className="about-statics-title">Years of Experience</p>
               </div>
             </div>
           </div>

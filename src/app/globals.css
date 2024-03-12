@@ -140,7 +140,7 @@
     @apply flex justify-between items-center flex-col;
   }
   .about-statics-tittle {
-    @apply text-[16px] font-normal leading-[25.6px];
+    @apply text-[16px] font-normal leading-[25.6px] text-[#ffffffcc];
   }
 
   .about-statics-number {
