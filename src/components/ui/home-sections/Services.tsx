@@ -5,7 +5,7 @@ import { ServiceCards } from "@/utils/mocks/ServiceCards";
 
 const Services = () => {
   return (
-    <section className="section-bg tablet:mt-[42px]">
+    <section className="section-bg tablet:mt-[42px] tablet:py-[32px]">
       <div className="section-container">
         <TitleWithDescription
           title="Our satisfied customers share their stories"

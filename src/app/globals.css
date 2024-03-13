@@ -132,7 +132,7 @@
   }
 
   .contact-us-container {
-    @apply ml-24 tablet:ml-[50px] desktop:ml-[150px] mr-0;
+    @apply ml-24 tablet:ml-[50px] tablet:mx-[50px] desktop:ml-[150px] desktop:mr-0;
   }
 
   .section-container {

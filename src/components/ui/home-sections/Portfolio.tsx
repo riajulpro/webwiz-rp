@@ -3,7 +3,7 @@ import TitleWithDescription from "@/components/shared/TitleWithDescription";
 
 const Portfolio = () => {
   return (
-    <section className="section-bg tablet:mt-[42px]">
+    <section className="section-bg tablet:mt-[42px] tablet:py-[32px]">
       <article className="section-container">
         <TitleWithDescription
           sectionName="Portfolio"

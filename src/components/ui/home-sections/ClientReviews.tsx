@@ -5,24 +5,24 @@ import Image from "next/image";
 const ClientReviews = () => {
   return (
     <section className="section-container tablet:mt-[42px]">
-      <div className="flex gap-[32px] items-stretch">
-        <article className="self-start desktop:w-[330px]">
+      <article className="flex gap-[32px] items-stretch tablet:flex-wrap">
+        <section className="self-start tablet:w-[314px] desktop:w-[330px]">
           <TitleWithDescription
             isVertical={true}
             title="Client Reviews"
             description="The team at  consistently delivered outstanding surpassing expectations "
           />
-        </article>
-        <article>
+        </section>
+        <section>
           <Image
             src={"/images/client-image-one.png"}
             alt="Client Photo 01"
             height={401}
             width={306}
           />
-        </article>
-        <article className="self-end">
-          <div className="flex justify-end gap-[12px] items-center mb-[16px]">
+        </section>
+        <section className="self-end tablet:w-full flex desktop:flex-col tablet:flex-col-reverse gap-[16px]">
+          <div className="flex justify-end gap-[12px] items-center">
             <button className="border border-primary-color rounded-full p-[12px]">
               <LeftArrow />
             </button>
@@ -54,8 +54,8 @@ const ClientReviews = () => {
               surpassing our expectations in{" "}
             </div>
           </div>
-        </article>
-      </div>
+        </section>
+      </article>
     </section>
   );
 };

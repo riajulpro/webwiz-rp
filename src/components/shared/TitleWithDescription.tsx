@@ -39,7 +39,7 @@ const TitleWithDescription = ({
             className={`desktop:w-[554px] ${
               isMain
                 ? "tablet:text-[40px] desktop:text-[64px] tablet:leading-[56px] desktop:leading-[84px]"
-                : "text-[40px] leading-[56px]"
+                : "tablet:text-[24px] tablet:leading-[39.2px] desktop:text-[40px] desktop:leading-[56px]"
             } font-bold`}
           >
             {titleArray.map((word, index) => (

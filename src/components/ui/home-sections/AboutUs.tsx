@@ -13,17 +13,17 @@ const AboutUs = () => {
         desWidth="w-[505px]"
         textSize="text-[16px]"
       />
-      <div className="desktop:mt-[48px] flex justify-between items-start gap-[32px]">
-        <div className="flex-1">
+      <article className="desktop:mt-[48px] flex tablet:flex-col desktop:flex-row justify-between items-start gap-[32px]">
+        <section className="tablet:w-full flex-1 tablet:py-[24px]">
           <div className="flex flex-col gap-[22px] bg-[#F6F9FE] rounded-[12px] p-[50px]">
             <SkillBar title="Graphics Design" barRange="65" />
             <SkillBar title="Lead Generation" barRange="87" />
             <SkillBar title="Product Design" barRange="45" />
             <SkillBar title="UI/UX Design" barRange="75" />
           </div>
-        </div>
-        <div className="flex-1">
-          <div className="relative">
+        </section>
+        <section className="flex-1 tablet:w-full">
+          <div className="relative flex items-center justify-center">
             <Image
               src={"/images/about-us.png"}
               alt="About Us"
@@ -33,13 +33,13 @@ const AboutUs = () => {
             />
             <div
               className="absolute linear-gradient p-[32px] text-white rounded-[12px] 
-          -right-[50px] desktop:w-[531px] -bottom-[70px] flex justify-between items-center gap-[32px]"
+          desktop:-right-[50px] desktop:w-[531px] desktop:-bottom-[70px] flex justify-between items-center gap-[32px] tablet:-bottom-[20px] tablet:opacity-95"
             >
               <div className="about-statics-frame">
                 <h4 className="about-statics-number">58+</h4>
                 <p className="about-statics-title">Project Delivery</p>
               </div>
-              <div className="about-statics-frame">
+              <div className="about-statics-frame border-x border-white px-[20px]">
                 <h4 className="about-statics-number">120+</h4>
                 <p className="about-statics-title">Happy Clients</p>
               </div>
@@ -49,8 +49,8 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </article>
     </section>
   );
 };
