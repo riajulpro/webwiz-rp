@@ -121,21 +121,25 @@
 }
 
 @layer components {
-  .main-container {
+  .container {
+    @apply px-[24px] tablet:px-[50px] desktop:px-[150px];
+  }
+
+  .container-wrapper {
     @apply w-full tablet:md-max-width desktop:lg-max-width mx-auto;
   }
 
   .section-container,
   .footer-container,
   .nav-container {
-    @apply mx-24 tablet:mx-[50px] desktop:mx-[150px];
+    @apply mx-[24px] tablet:mx-[50px] desktop:mx-[150px];
   }
 
   .contact-us-container {
-    @apply ml-24 tablet:ml-[50px] tablet:mx-[50px] desktop:ml-[150px] desktop:mr-0;
+    @apply mx-[24px] tablet:ml-[50px] tablet:mx-[50px] desktop:ml-[150px] desktop:mr-0;
   }
 
-  .section-container {
+  .container {
     @apply desktop:py-[80px];
   }
 
@@ -143,7 +147,7 @@
     @apply py-3 px-6 text-xs font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
   }
   .btn-secondary {
-    @apply py-[12px] px-[24px] border border-[#5F90F0] text-[14px] font-medium leading-[22.4px] rounded-full text-[#5F90F0];
+    @apply py-[12px] px-[24px] border border-[#5F90F0] text-[9px] tablet:text-[14px] font-medium leading-[22.4px] rounded-full text-[#5F90F0];
   }
   .section-bg {
     @apply bg-gradient-to-r from-[#5f90f00a] via-[#185ad90a] to-[#185ad90a];
