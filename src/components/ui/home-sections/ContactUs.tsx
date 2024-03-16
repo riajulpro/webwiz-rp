@@ -7,7 +7,7 @@ const ContactUs = () => {
     <section className="tablet:mt-[42px]">
       <div className="container-wrapper py-[40px] sm:py-auto">
         <div className="contact-us-container">
-          <article className="flex flex-col tablet:flex-row-reverse desktop:flex-row justify-between desktop:items-center w-full">
+          <article className="flex flex-col-reverse tablet:flex-row-reverse desktop:flex-row justify-between desktop:items-center w-full gap-32 tablet:gap-0">
             <section className="flex-1">
               <TitleWithDescription
                 title="Contact Us"
@@ -43,7 +43,7 @@ const ContactUs = () => {
               </div>
             </section>
             <section className="flex-1 relative flex-col tablet:flex-row flex desktop:justify-end items-center">
-              <div className="bg-white relative desktop:absolute desktop:w-[471px] desktop:-left-[110px] desktop:top-[94px] rounded-[12px] p-[32px] contact-overlay-shadow flex flex-col justify-between gap-[32px]">
+              <div className="bg-white absolute -bottom-28 desktop:absolute desktop:w-[471px] desktop:-left-[110px] desktop:top-[94px] rounded-[12px] p-[32px] contact-overlay-shadow flex flex-col justify-between gap-[32px] z-40">
                 <div className="flex items-center gap-2">
                   <Mail /> <span>michael.mitc@example.com</span>
                 </div>

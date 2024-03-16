@@ -144,10 +144,10 @@
   }
 
   .btn-primary {
-    @apply py-3 px-6 text-xs font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
+    @apply py-3 px-6 tablet:text-xs font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
   }
   .btn-secondary {
-    @apply py-[12px] px-[24px] border border-[#5F90F0] text-[9px] tablet:text-[14px] font-medium leading-[22.4px] rounded-full text-[#5F90F0];
+    @apply py-[12px] px-[24px] border border-[#5F90F0] tablet:text-[14px] font-medium leading-[22.4px] rounded-full text-[#5F90F0];
   }
   .section-bg {
     @apply bg-gradient-to-r from-[#5f90f00a] via-[#185ad90a] to-[#185ad90a];
@@ -169,12 +169,13 @@
   .about-statics-frame {
     @apply flex justify-between items-center flex-col;
   }
+
   .about-statics-tittle {
-    @apply text-[16px] font-normal leading-[25.6px] text-[#ffffffcc];
+    @apply text-[12px] tablet:text-[16px] font-normal leading-[25.6px] text-[#ffffffcc];
   }
 
   .about-statics-number {
-    @apply font-bold text-[24px] leading-[33.6px];
+    @apply font-bold text-[16px] tablet:text-[24px] leading-[33.6px];
   }
 
   /* footer classes */

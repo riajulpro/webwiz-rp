@@ -7,7 +7,7 @@ const ClientReviews = () => {
     <section className="tablet:mt-[42px]">
       <div className="container-wrapper py-[40px]">
         <div className="container">
-          <article className="flex flex-col tablet:flex-row gap-[32px] items-stretch tablet:flex-wrap">
+          <article className="flex flex-col tablet:flex-row gap-[32px] items-center tablet:items-stretch tablet:flex-wrap">
             <section className="self-start tablet:w-[314px] desktop:w-[330px]">
               <TitleWithDescription
                 isVertical={true}

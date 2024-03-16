@@ -29,7 +29,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="bg-transparent border border-footer-border text-[16px] rounded-full py-[8px] px-[16px] tablet:w-full desktop:w-[370px]"
+                className="bg-transparent border border-footer-border text-[16px] rounded-full py-[8px] px-[16px] w-full tablet:w-full desktop:w-[370px]"
               />
               <button className="absolute right-0 linear-gradient text-white text-[14px] py-[10px] px-[16px] rounded-full">
                 Subscribe
