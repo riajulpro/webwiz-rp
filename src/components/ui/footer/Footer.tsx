@@ -25,7 +25,7 @@ const Footer = () => {
                 </span>
               </h3>
             </section>
-            <section className="tablet:flex-1 relative">
+            <section className="relative">
               <input
                 type="text"
                 placeholder="Enter your email"
@@ -38,7 +38,7 @@ const Footer = () => {
           </article>
 
           <article className="w-full flex-col desktop:flex-row flex items-start desktop:gap-[133px] tablet:gap-[32px]">
-            <section className="tablet:w-full tablet:items-center desktop:w-[339px] flex flex-col tablet:justify-between tablet:flex-row desktop:flex-col">
+            <section className="tablet:w-full tablet:items-center desktop:w-[339px] flex flex-col tablet:justify-between tablet:flex-row desktop:flex-col desktop:items-start">
               <div>
                 <Image
                   src="/images/footer-logo.png"
