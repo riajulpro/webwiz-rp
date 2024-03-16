@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="mt-[32px] nav-container">
-      <div className="flex justify-between items-center">
+    <nav className="mt-[32px] container-wrapper">
+      <div className="nav-container flex justify-between items-center">
         <div>
           <LogoIcon />
         </div>

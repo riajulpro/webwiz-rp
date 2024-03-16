@@ -14,7 +14,7 @@ const Blogs = () => {
                   alt="Blog Photo"
                   width={369}
                   height={510}
-                  className="tablet:absolute desktop:bottom-[74px]"
+                  className="relative tablet:absolute desktop:bottom-[74px] desktop:left-1/2 desktop:-translate-x-1/2"
                 />
                 <div className="bg-[#EDEEFB] desktop:w-[554px] desktop:h-[450px] rounded-[16px]" />
               </div>

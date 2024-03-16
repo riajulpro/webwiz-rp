@@ -23,7 +23,7 @@ const ClientReviews = () => {
                 width={306}
               />
             </section>
-            <section className="self-end tablet:w-full flex desktop:flex-col flex-col-reverse gap-[16px]">
+            <section className="self-end tablet:w-full desktop:w-[420px] flex desktop:flex-col flex-col-reverse gap-[16px]">
               <div className="flex justify-end gap-[12px] items-center">
                 <button className="border border-primary-color rounded-full p-[12px]">
                   <LeftArrow />
