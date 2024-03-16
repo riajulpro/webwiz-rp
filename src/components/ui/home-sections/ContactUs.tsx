@@ -5,7 +5,7 @@ import Image from "next/image";
 const ContactUs = () => {
   return (
     <section className="tablet:mt-[42px]">
-      <div className="container-wrapper py-[40px] sm:py-auto">
+      <div className="container-wrapper py-[40px] tablet:py-0">
         <div className="contact-us-container">
           <article className="flex flex-col-reverse tablet:flex-row-reverse desktop:flex-row justify-between desktop:items-center w-full gap-32 tablet:gap-0">
             <section className="flex-1">

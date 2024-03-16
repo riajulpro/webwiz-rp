@@ -144,8 +144,9 @@
   }
 
   .btn-primary {
-    @apply py-3 px-6 tablet:text-xs font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
+    @apply py-[12px] px-[24px] tablet:text-[14px] font-medium leading-5 rounded-full text-white hover:bg-gradient-to-l bg-gradient-to-r from-[#5F90F0] to-[#185AD9];
   }
+
   .btn-secondary {
     @apply py-[12px] px-[24px] border border-[#5F90F0] tablet:text-[14px] font-medium leading-[22.4px] rounded-full text-[#5F90F0];
   }

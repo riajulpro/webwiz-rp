@@ -5,7 +5,7 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <section className="tablet:mt-[42px]">
-      <div className="container-wrapper py-[40px]">
+      <div className="container-wrapper py-[40px] tablet:py-0">
         <div className="container">
           <TitleWithDescription
             sectionName="About Us"

@@ -6,7 +6,7 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <section className="mt-[27px] tablet:mt-[32px] desktop:mt-[22px]">
-      <div className="container-wrapper tablet:py-[40px] sm:py-auto">
+      <div className="container-wrapper tablet:py-[40px] desktop:py-0">
         <div className="container flex flex-col tablet:flex-row justify-between items-center gap-[20px]">
           <article className="flex-1">
             <TitleWithDescription
@@ -16,7 +16,7 @@ const Banner = () => {
               description="Welcome to my digital playground, where creativity knows no bounds. I'm a passionate designer and developer on a mission to turn innovative ideas into stunning digital realities."
               blueText="Imagination"
             />
-            <div className="flex justify-center items-center gap-2 tablet:static mt-[20px]">
+            <div className="flex justify-center items-center gap-2 tablet:block mt-[20px]">
               <button className="w-full btn-primary tablet:w-[160px] mr-3">
                 Hire Me
               </button>
