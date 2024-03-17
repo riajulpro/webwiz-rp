@@ -64,7 +64,7 @@ const ContactUs = () => {
                 height={475}
                 className="rounded-l-[16px] tablet:hidden desktop:block"
               />
-              <div className="absolute bg-[#185ad91a] h-[117px] w-[117px] rounded-[12px] -top-10 left-0 -z-10" />
+              <div className="absolute bg-[#185ad91a] desktop:h-[117px] desktop:w-[117px] rounded-[12px] -top-10 left-0 -z-10" />
               <div className="contact-overlay absolute w-[590px] h-[475px] rounded-l-[16px] z-10" />
             </section>
           </article>
