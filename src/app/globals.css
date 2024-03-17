@@ -111,6 +111,14 @@
   background: #5f90f0;
 }
 
+.contact-overlay {
+  background: linear-gradient(
+    99deg,
+    rgba(95, 144, 240, 0.56) 5.67%,
+    rgba(24, 90, 217, 0.56) 98.08%
+  );
+}
+
 @layer utilities {
   .lg-max-width {
     max-width: 1440px;
